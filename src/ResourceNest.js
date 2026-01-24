@@ -1,5 +1,5 @@
 /**
- * @dennisthln/resourcenest
+ * resourcenest
  * Professional resource calendar UI for displaying and managing resource scheduling.
  * Works with any framework: Vue, React, Angular, plain HTML, etc.
  */

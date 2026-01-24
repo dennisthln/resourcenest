@@ -51,11 +51,11 @@ Works with **any framework**: Vue, React, Angular, Svelte, or plain HTML.
 ## Installation
 
 ```bash
-yarn add @dennisthln/resourcenest
+yarn add resourcenest
 # or
-npm install @dennisthln/resourcenest
+npm install resourcenest
 # or
-bun add @dennisthln/resourcenest
+bun add resourcenest
 ```
 
 ## Quick Start
@@ -72,7 +72,7 @@ bun add @dennisthln/resourcenest
   <div id="calendar"></div>
 
   <script type="module">
-    import createResourceNest from '@dennisthln/resourcenest';
+    import createResourceNest from 'resourcenest';
     
     const calendar = createResourceNest('#calendar', {
       resources: [

@@ -1,4 +1,4 @@
-# @dennisthln/resourcenest
+# resourcenest
 
 ## 1.0.1
 
