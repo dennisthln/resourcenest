@@ -1,5 +1,11 @@
 # @dennisthln/resourcenest
 
+## 1.0.1
+
+### Patch Changes
+
+- [`238aa40`](https://github.com/dennisthln/resourcenest/commit/238aa403101bac532fa3df583f58ba9d3efdbcbb) - Initial commit
+
 ## 1.2.3
 
 ### Patch Changes

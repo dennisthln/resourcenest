@@ -1,6 +1,6 @@
 {
   "name": "resourcenest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ResourceNest - Professional Resource Calendar UI. Beautiful timeline interface for displaying and managing room bookings, staff schedules, equipment allocation & appointments. Vanilla JavaScript, framework-agnostic.",
   "type": "module",
   "private": false,

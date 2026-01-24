@@ -1,5 +1,0 @@
----
-"resourcenest": patch
----
-
-Initial commit
