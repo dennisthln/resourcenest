@@ -1,0 +1,69 @@
+{
+  "name": "resourcenest",
+  "version": "1.2.3",
+  "description": "ResourceNest - Professional Resource Calendar UI. Beautiful timeline interface for displaying and managing room bookings, staff schedules, equipment allocation & appointments. Vanilla JavaScript, framework-agnostic.",
+  "type": "module",
+  "private": false,
+  "main": "./dist/resourcenest.umd.cjs",
+  "module": "./dist/resourcenest.js",
+  "browser": "./dist/resourcenest.js",
+  "unpkg": "./dist/resourcenest.umd.cjs",
+  "exports": {
+    ".": {
+      "import": "./dist/resourcenest.js",
+      "require": "./dist/resourcenest.umd.cjs"
+    },
+    "./src": {
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "yarn build",
+    "changeset": "changeset",
+    "changeset:version": "changeset version",
+    "changeset:publish": "changeset publish"
+  },
+  "keywords": [
+    "resourcenest",
+    "resource-calendar",
+    "resource-scheduling",
+    "resource-management",
+    "room-booking",
+    "appointment-calendar",
+    "timeline-calendar",
+    "scheduler",
+    "scheduling",
+    "booking",
+    "team-scheduling",
+    "staff-scheduling",
+    "equipment-scheduling",
+    "meeting-room",
+    "resource-allocation",
+    "time-slot",
+    "calendar",
+    "vanilla-js",
+    "javascript",
+    "vue",
+    "react",
+    "angular",
+    "framework-agnostic"
+  ],
+  "author": "Dennis Thelosen <dennisthelosen20@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dennisthln/resourcenest"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "0.5.2",
+    "@changesets/cli": "2.29.8",
+    "vite": "^6.0.11"
+  }
+}

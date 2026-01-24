@@ -1,0 +1,16 @@
+examples/
+docs/
+src/
+vite.config.js
+README.md
+.github/
+.git/
+.gitignore
+node_modules/
+npm-debug.log
+.vscode/
+.idea/
+.DS_Store
+dist/timeline-calendar.js.map
+dist/timeline-calendar.umd.cjs.map
+

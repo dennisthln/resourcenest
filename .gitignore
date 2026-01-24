@@ -1,0 +1,29 @@
+# Dependencies
+Thumbs.db
+# OS
+
+.env.*.local
+.env.local
+.env
+# Environment
+
+*.log
+logs/
+# Logs
+
+.DS_Store
+*~
+*.swo
+*.swp
+.idea/
+.vscode/
+# IDE
+
+*.tgz
+dist/
+# Build outputs
+
+bun.lockb
+yarn-error.log
+npm-debug.log
+node_modules/

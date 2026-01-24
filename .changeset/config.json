@@ -1,0 +1,18 @@
+{
+  "$schema": "https://unpkg.com/@changesets/types@latest/schema.json",
+  "changelog": [
+    "@changesets/changelog-github",
+    { "repo": "dennisthln/resourcenest" }
+  ],
+  "commit": true,
+  "commitMessage": "chore: release version",
+  "fixed": [],
+  "linked": [],
+  "access": "public",
+  "baseBranch": "master",
+  "updateInternalDependencies": "patch",
+  "ignore": [],
+  "skipCI": false,
+  "tag": true
+}
+
