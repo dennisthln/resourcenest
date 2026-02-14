@@ -1,0 +1,30 @@
+import { ResourceNestOptions } from './types';
+
+export const DEFAULTS: ResourceNestOptions = {
+  startHour: 8,
+  endHour: 22,
+  events: [],
+  resources: [],
+  locale: 'de-DE',
+  dateFormat: 'DD.MM.YYYY',
+  todayLabel: 'Today',
+  loadingLabel: 'Loading...',
+  showNavigation: true,
+  showNowIndicator: true,
+  showViewSwitcher: true,
+  autoScrollToCurrentOnInit: false,
+  autoScrollToCurrentAlign: 'center',
+  stickyHourLabels: false,
+  eventClickable: true,
+  timeClickable: true,
+  view: 'day',
+  viewLabels: {
+    day: 'Day',
+    '3days': '3 Days',
+    week: 'Week',
+  },
+  onEventClick: undefined,
+  onTimeClick: undefined,
+  onDateChange: undefined,
+  onViewChange: undefined,
+};

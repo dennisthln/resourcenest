@@ -14,7 +14,7 @@
       "require": "./dist/resourcenest.umd.cjs"
     },
     "./src": {
-      "import": "./src/index.js"
+      "import": "./src/index.ts"
     }
   },
   "files": [
@@ -64,6 +64,9 @@
   "devDependencies": {
     "@changesets/changelog-github": "0.5.2",
     "@changesets/cli": "2.29.8",
-    "vite": "^6.0.11"
+    "sass": "^1.83.4",
+    "typescript": "5.9.3",
+    "vite": "^6.0.11",
+    "vite-plugin-css-injected-by-js": "^3.5.2"
   }
 }
