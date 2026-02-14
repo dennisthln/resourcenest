@@ -1,5 +1,11 @@
 # resourcenest
 
+## 2.0.0
+
+### Major Changes
+
+- [`6386fea`](https://github.com/dennisthln/resourcenest/commit/6386fea4d28f369ab56baf34c60fc80f56bbe9e6) - Refactor to component-based architecture and TypeScript
+
 ## 1.0.1
 
 ### Patch Changes
