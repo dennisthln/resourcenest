@@ -62,7 +62,7 @@
     "url": "https://github.com/dennisthln/resourcenest"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "0.5.2",
+    "@changesets/changelog-github": "0.6.0",
     "@changesets/cli": "2.29.8",
     "sass": "^1.83.4",
     "typescript": "5.9.3",
